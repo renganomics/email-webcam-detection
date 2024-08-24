@@ -21,6 +21,7 @@ def clean_folder():
         os.remove(image)
     print("clean_folder function ended")
 
+
 while True:
     status = 0
     check, frame = video.read()

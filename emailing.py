@@ -4,7 +4,7 @@ import imghdr
 
 from email.message import EmailMessage
 
-PASSWORD = os.environ["PASSWORD"]
+PASSWORD = os.environ["GOOGLE_APP_PASSWORD"]
 SENDER = "orengasi@gmail.com"
 RECEIVER = "orengasi@gmail.com"
 
